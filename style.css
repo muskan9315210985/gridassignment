@@ -1,0 +1,57 @@
+body{
+    background-color: blue;
+}
+.my-skills{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    border: 2px b;
+    gap: 20px;
+    background-color: blue;
+    height: 600px;
+    
+}
+.min_box{
+    border-radius: 10px;
+    border: 2px white;
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.image{
+    height: 80px;
+    width: 70px;
+    margin-top:30px ;
+    margin-left: 160px;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(53, 50, 50);;
+ } 
+.para{
+    font-size: 15px;
+    text-align: center;
+    width: 500px;
+    margin-left: -40px;
+    color: gray;
+}
+.button{
+    margin-top: 10px;
+    margin-left: 130px;
+    height: 35px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 7px;
+    border-color: rgb(53, 50, 50);
+    background-color: rgb(53, 50, 50);
+    color: white;
+}
+.min_box:hover{
+    transform:scale(1.08);}
